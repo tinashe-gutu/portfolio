@@ -1,0 +1,19 @@
+.projectListContainer {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto;
+  gap: 3rem;
+  justify-items: center;
+}
+
+.projectListContainer > div {
+  border: 1px solid black;
+  width: 80vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img,
+video {
+  width: 50vw;
+}
