@@ -1,7 +1,6 @@
 import todo from "../utils/todo.jpeg";
 import pastebin from "../utils/pastebin.png";
 import rainbow from "../utils/Rainbowimg.png";
-import electricp from "../utils/electric-particles.png";
 import electricpv from "../utils/electricpv.mp4";
 
 export function ProjectList(): JSX.Element {
