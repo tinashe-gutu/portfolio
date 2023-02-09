@@ -15,11 +15,11 @@ export function Header(): JSX.Element {
       <div id="about">
         <h1>About</h1>
         <p>
-          Hello my name is Tinashe and i enjoy spotting real life opportunities
+          Hello my name is Tinashe and I enjoy spotting real life opportunities
           and problems that can be solved through tech. My interest in software
           began in 2020 during my final year studying aerospace engineering
-          where i stumbled onto an online course deliverd by havard called CS50
-          and i became obssessed with this new world of problem solving and
+          where I stumbled onto an online course deliverd by havard called CS50
+          and I became obssessed with this new world of problem solving and
           thinking!
         </p>
         <p>

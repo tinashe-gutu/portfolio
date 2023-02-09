@@ -38,7 +38,7 @@ export function ProjectList(): JSX.Element {
           <img src={pastebin} alt="Pastebin screenshot" />
         </div>
         <div>
-          <h3>Patebin</h3>
+          <h3>Pastebin</h3>
           <p>
             A Pastebin full stack web application where users can store and
             share text snippets, code snippets, or any other type of text
