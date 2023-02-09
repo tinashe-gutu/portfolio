@@ -25,7 +25,7 @@ export function Header(): JSX.Element {
         <p>
           Fast-forward to today and some self taught online courses later, I
           have retrained as a software engineer through{" "}
-          <a href="https://academy.tech/" target="_blank">
+          <a href="https://academy.tech/" target="_blank" rel="noreferrer">
             Academy Tech's
           </a>{" "}
           emersive program with a curriculum that focuses on leadership and
@@ -43,12 +43,17 @@ export function Header(): JSX.Element {
           <li>CI/CD</li>
         </ul>
         <ul className="socials">
-          <a href="https://github.com/tinashe-gutu" target="_blank">
+          <a
+            href="https://github.com/tinashe-gutu"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>
           <a
             href="https://www.linkedin.com/in/tinashe-gutu-24820818b/"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
