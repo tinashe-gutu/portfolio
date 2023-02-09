@@ -5,12 +5,13 @@ import electricpv from "../utils/electricpv.mp4";
 
 export function ProjectList(): JSX.Element {
   return (
-    <div className="projectListContainer">
+    <div className="projectListContainer" id="projects">
+      <h1 className="my-projects">My Projects</h1>
       <div className="rainbowMachines">
         <div className="img-div">
           <img src={rainbow} alt="Rainbow screenshot" />
         </div>
-        <div>
+        <div className="project-info">
           <h3>Rainbow Machines</h3>
           <p>
             In a previous role, I developed a full stack software solution that
@@ -26,7 +27,7 @@ export function ProjectList(): JSX.Element {
             <li>Javascript</li>
             <li>Python</li>
             <li>Flask</li>
-            <li>SQL</li>
+            <li>SQLite</li>
           </ul>
           <a href="https://youtu.be/hHiwJLfzQRc">Live Video</a>
           <a href="https://github.com/tinashe-gutu/Rainbow">Source</a>
