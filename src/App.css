@@ -1,19 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #354f52;
+  color: rgb(201, 199, 199);
+}
+
 .projectListContainer {
   display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto;
-  gap: 3rem;
-  justify-items: center;
+  font-family: inherit;
+  padding-top: 3.5rem;
 }
 
 .projectListContainer > div {
   border: 1px solid black;
-  width: 80vw;
-  height: 60vh;
+  width: 85vw;
+  height: 68vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-family: inherit;
+  font-size: 1.2rem;
+  background-color: #2f3e46;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 5px;
+}
+.projectListContainer > div > div {
+  padding-left: 1.2rem;
+}
+.projectListContainer > div > div > ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
 }
 img,
 video {
-  width: 50vw;
+  width: 47vw;
+  border-radius: 7px;
+}
+
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #2f3e46;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 1.15rem 1rem 1.15rem 1rem;
+}
+
+nav,
+a {
+  padding: 1rem;
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.intro {
+  height: 90vh;
+  margin-left: 3rem;
+  display: grid;
+  align-items: center;
+}
+
+.name {
+  font-size: 4rem;
+  margin: 0;
+}
+.short-intro {
+  width: 55vw;
+  font-size: 1.5rem;
+}
+
+#about {
+  height: 90vh;
+  margin-left: 3rem;
+  padding-top: 3.5rem;
+}
+
+#about p {
+  width: 60%;
+  font-size: 1.2rem;
+}
+.technologies {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+}
+.technologies,
+li {
+  list-style-type: circle;
+}
+.socials {
+  padding-left: 0;
+  display: flex;
+  justify-content: left;
+}
+
+.socials,
+a {
+  padding-left: 0;
+}
+
+#contact {
+  border: 1px solid black;
+  height: 90vh;
+  margin-left: 3rem;
+  text-align: center;
+}
+#contact h1 {
+  font-size: 4rem;
+}
+#contact h2 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact h3 {
+  font-size: 1.2rem;
 }
