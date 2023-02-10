@@ -7,6 +7,29 @@ export function ProjectList(): JSX.Element {
   return (
     <div className="projectListContainer" id="projects">
       <h1 className="my-projects">My Projects</h1>
+      <div className="electricParticles">
+        <div>
+          <video loop={true} autoPlay muted>
+            <source src={electricpv} type="video/mp4" />
+          </video>
+        </div>
+        <div>
+          <h3>Electic Particles (Creative coding)</h3>
+          <p>
+            An algorithm that utilizes the p5.js library and executed on the
+            Open Processor platform is used to create a visually striking
+            pattern through the movement of electric particles in close
+            proximity to one another.
+          </p>
+          <ul>
+            <li>Javascript</li>
+            <li>P5.js</li>
+            <li>Open Processor</li>
+          </ul>
+          <a href="https://openprocessing.org/sketch/1727622">Live render</a>
+          <a href="https://openprocessing.org/sketch/1727622">Source</a>
+        </div>
+      </div>
       <div className="rainbowMachines">
         <div className="img-div">
           <img src={rainbow} alt="Rainbow screenshot" />
@@ -14,14 +37,11 @@ export function ProjectList(): JSX.Element {
         <div className="project-info">
           <h3>Rainbow Machines</h3>
           <p>
-            In a previous role, I developed a full stack software solution that
-            included attaching barcodes to machines that would be temporarily
-            going into a clients property.The barcode could be scanned when a
-            machine was placed in a property. The software would then record the
-            location of the property on a map, as well as the duration of time
-            the machine had been there. This enabled the warehouse manager to
-            easily track the location and status of each machine, and receive
-            alerts when it was time to remove them.
+            I developed a full stack software solution that could track the
+            location of machines being deployed throughout the UK. The software
+            would show the duration of time in each property, enabling managers
+            to easily view the status of each machine and receive alerts when it
+            was time to remove them.
           </p>
           <ul>
             <li>Javascript</li>
@@ -84,29 +104,6 @@ export function ProjectList(): JSX.Element {
           <a href="https://github.com/tinashe-gutu/to-do-list-backend">
             Backend Source
           </a>
-        </div>
-      </div>
-      <div className="electricParticles">
-        <div>
-          <video loop={true} autoPlay muted>
-            <source src={electricpv} type="video/mp4" />
-          </video>
-        </div>
-        <div>
-          <h3>Electic Particles (Creative coding)</h3>
-          <p>
-            An algorithm that utilizes the p5.js library and executed on the
-            Open Processor platform is used to create a visually striking
-            pattern through the movement of electric particles in close
-            proximity to one another.
-          </p>
-          <ul>
-            <li>Javascript</li>
-            <li>P5.js</li>
-            <li>Open Processor</li>
-          </ul>
-          <a href="https://openprocessing.org/sketch/1727622">Live render</a>
-          <a href="https://openprocessing.org/sketch/1727622">Source</a>
         </div>
       </div>
     </div>
